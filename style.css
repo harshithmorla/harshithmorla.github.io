@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 60px 25px;
+}
+
+nav {
+    margin-bottom: 80px;
+}
+
+nav a {
+    color: #888;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+nav a:hover,
+nav a.active {
+    color: white;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 1.15;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+p {
+    line-height: 1.7;
+}
+
+.intro,
+.description,
+.project p {
+    color: #888;
+    line-height: 1.7;
+}
+
+.project {
+    margin: 45px 0;
+}
+
+.project a,
+.text-link {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.project a:hover,
+.text-link:hover {
+    color: white;
+}
+
+.project-meta {
+    color: #666;
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+.section {
+    margin-top: 50px;
+}
+
+.section p {
+    color: #aaa;
+}
+
+.back-link {
+    display: inline-block;
+    color: #888;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    color: white;
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 35px 20px;
+    }
+
+    nav {
+        margin-bottom: 60px;
+    }
+
+    nav a {
+        margin-right: 12px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+}
